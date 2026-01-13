@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "label": "l'utilisateur souhaite-t-il s'inscrire sue la lite d'attente",
+      "components": [
+        {
+          "label": "Radio group",
+          "values": [
+            {
+              "label": "OUI",
+              "value": "OUI"
+            },
+            {
+              "label": "NON",
+              "value": "NON"
+            }
+          ],
+          "type": "radio",
+          "layout": {
+            "row": "Row_14e8dyc",
+            "columns": null
+          },
+          "id": "Field_0guhrmk",
+          "key": "decision2"
+        }
+      ],
+      "showOutline": true,
+      "type": "group",
+      "layout": {
+        "row": "Row_1m32pl2",
+        "columns": null
+      },
+      "id": "Field_07b40pf"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1411rar",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

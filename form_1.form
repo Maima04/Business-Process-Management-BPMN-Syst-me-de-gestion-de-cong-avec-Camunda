@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "label": "Informations Employé",
+      "components": [
+        {
+          "label": "Nom de l'employé:",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_0zr75n6",
+            "columns": null
+          },
+          "id": "Field_15y3ckx",
+          "key": "ename",
+          "validate": {
+            "required": false
+          }
+        },
+        {
+          "label": "Prénom de l'employé:",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_11u0v10",
+            "columns": null
+          },
+          "id": "Field_0ej2bf5",
+          "key": "textfield_sig4e"
+        },
+        {
+          "label": "ID de l'employé",
+          "type": "number",
+          "layout": {
+            "row": "Row_0m9gnl8",
+            "columns": null
+          },
+          "id": "Field_0x8tmy6",
+          "key": "empno",
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "label": "Nom du département:",
+          "values": [
+            {
+              "label": "DEPT_1",
+              "value": "dept1"
+            },
+            {
+              "label": "DEPT_2",
+              "value": "dept2"
+            },
+            {
+              "label": "DEPT_3",
+              "value": "dept3"
+            },
+            {
+              "label": "DEPT_4",
+              "value": "dept4"
+            }
+          ],
+          "type": "radio",
+          "layout": {
+            "row": "Row_0oi2x93",
+            "columns": null
+          },
+          "id": "Field_0iv68k7",
+          "key": "dname"
+        }
+      ],
+      "showOutline": true,
+      "type": "group",
+      "layout": {
+        "row": "Row_0miqli7",
+        "columns": null
+      },
+      "id": "Field_0chsdfp"
+    },
+    {
+      "label": "Information Congé",
+      "components": [
+        {
+          "label": "Vous avez un solde de congé?",
+          "values": [
+            {
+              "label": "Oui",
+              "value": "oui"
+            },
+            {
+              "label": "Non",
+              "value": "non"
+            }
+          ],
+          "type": "radio",
+          "layout": {
+            "row": "Row_14fycta",
+            "columns": 14
+          },
+          "id": "Field_1j3qj2s",
+          "key": "solde",
+          "defaultValue": "value",
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "subtype": "date",
+          "dateLabel": "Date début du congé:",
+          "type": "datetime",
+          "layout": {
+            "row": "Row_0but0dg",
+            "columns": null
+          },
+          "id": "Field_1l04irl",
+          "key": "datedeb",
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "subtype": "date",
+          "dateLabel": "Date fin du congé:",
+          "type": "datetime",
+          "layout": {
+            "row": "Row_0but0dg",
+            "columns": null
+          },
+          "id": "Field_0lsmjix",
+          "key": "datefin",
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "label": "Nombre du jours:",
+          "type": "number",
+          "layout": {
+            "row": "Row_138aw91",
+            "columns": null
+          },
+          "id": "Field_1f82x74",
+          "key": "nbrdays",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "type": "group",
+      "layout": {
+        "row": "Row_0adwp1d",
+        "columns": null
+      },
+      "id": "Field_0khevt3"
+    },
+    {
+      "label": "Envoyer",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_11ckqgg",
+        "columns": 2
+      },
+      "id": "Field_03nasg5"
+    },
+    {
+      "label": "Annuler",
+      "action": "reset",
+      "type": "button",
+      "layout": {
+        "row": "Row_11ckqgg",
+        "columns": 2
+      },
+      "id": "Field_1dffhp5"
+    }
+  ],
+  "type": "default",
+  "id": "form_1",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "label": "délai est-il suffisant ?",
+      "components": [
+        {
+          "label": "Radio group",
+          "values": [
+            {
+              "label": "OUI",
+              "value": "OUI"
+            },
+            {
+              "label": "NON",
+              "value": "NON"
+            }
+          ],
+          "type": "radio",
+          "layout": {
+            "row": "Row_09hae0e",
+            "columns": null
+          },
+          "id": "Field_0awa9b9",
+          "key": "delai"
+        }
+      ],
+      "showOutline": true,
+      "type": "group",
+      "layout": {
+        "row": "Row_0usvxrb",
+        "columns": null
+      },
+      "id": "Field_05v3dk8"
+    }
+  ],
+  "type": "default",
+  "id": "form_delai",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}
